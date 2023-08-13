@@ -17,7 +17,7 @@ class calculatorTest
     @Test
     void testadd()
     {
-        assertEquals(10, myResult.add(5,5));
+        assertEquals(15, myResult.add(5,5,5));
     }
 
     @AfterEach
