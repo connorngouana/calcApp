@@ -4,12 +4,14 @@ public class calculator
 {
     private int val1;
     private int val2;
+    private int val3;
     private int result;
 
     public calculator()
     {
         val1 = 0;
         val2 = 0;
+        val3 = 0;
         result = 0;
     }
 
