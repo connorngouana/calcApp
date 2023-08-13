@@ -2,22 +2,21 @@ package ie.atu.week5;
 
 public class calculator
 {
-    private int val1;
-    private int val2;
-    private int val3;
+    private int value1;
+    private int value2;
+    private int value3;
     private int result;
-
 
     public calculator()
     {
-        val1 = 0;
-        val2 = 0;
-        val3 = 0;
+        value1 = 0;
+        value2 = 0;
+        value3 = 0;
         result = 0;
     }
-    public int add(int val1, int val2, int val3)
+    public int add(int value1, int value2, int value3)
     {
-        result = val1 + val2 + val3;
+        result = value1 + value2 + value3;
         return result;
     }
 
